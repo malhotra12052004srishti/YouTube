@@ -1,16 +1,19 @@
 // import React from 'react';
 import { HOME, SHORTS, SUBSCRIBE, USER, CLOCK } from "./icons";
+import { Link } from "react-router-dom";
 
 const IconDisplay = () => {
   console.log("Rendering IconDisplay");
   console.log("Icons:", { HOME, SHORTS, SUBSCRIBE, USER, CLOCK });
 
   return (
-    <div className="flex justify-center items-center flex-col">
+    <div className="flex justify-center items-start mt-5 h-screen">
       <ul className="p-2 text-gray-700">
-        <li className="py-1 flex items-center cursor-pointer">
-          <span className="mr-2 py-2">{HOME}</span> Home
-        </li>
+        <Link to="/">
+          <li className="py-1 flex items-center cursor-pointer">
+            <span className="mr-2 py-2">{HOME}</span> Home
+          </li>
+        </Link>
         <li className="py-2 flex items-center cursor-pointer">
           <span className="mr-2">{SHORTS}</span> Shorts
         </li>
