@@ -1,11 +1,14 @@
 import './App.css'
+import Body from './components/Body';
+import Header from './components/Header'
 
 function App() {
   return (
       <div>
-        <h1 className="font-bold text-3xl bg-red-300">Namaste Youtube</h1>
+        <Header />
+        <Body />
       </div>
   )
 }
 
-export default App
+export default App;
