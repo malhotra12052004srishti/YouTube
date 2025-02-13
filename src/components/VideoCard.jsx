@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 // import React from 'react';
 import { getValidNum } from "../utils/functions";
@@ -24,12 +25,24 @@ const VideoCard = ({ info }) => {
         <p className="h-12 overflow-hidden text-md font-semibold">
           {snippet?.title || "No Title Available"}{" "}
         </p>
+        <p className="text-sm font-bold">{snippet?.channelTitle}</p>
         <div className="text-[12px] text-gray-500 flex gap-1">
           <p className="">{likeString} likes</p>
           <p className="">|</p>
           <p>{viewString} views</p>
         </div>
       </div>
+    </div>
+  );
+};
+
+// Higher Order Components(HOD) : The concept is to take up the component and modifies it a little and then return it.
+
+export const AdVideoCard = ({ info }) => {
+  return (
+    <div className="border border-red-800 rounded-xl">
+      <VideoCard info={info} />
+      <p className="text-sm font-bold text-center">Video Unavailable</p>
     </div>
   );
 };
