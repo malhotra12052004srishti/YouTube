@@ -17,11 +17,11 @@ const SideBar = () => {
             <span className="mr-2">{HOME}</span> Home
           </li>
         </Link>
-        <Link to="/demo">
+        {/* <Link to="/demo">
           <li className="flex py-1">
             <span className="mr-2"></span> Demo
           </li>
-        </Link>
+        </Link> */}
         <li className="flex py-1">
           <span className="mr-2">{SHORTS}</span> Shorts
         </li>
