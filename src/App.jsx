@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import Body from "./components/Body";
 import Header from "./components/Header";
@@ -22,15 +23,15 @@ const appRouter = createBrowserRouter([
         path: "/watch",
         element: <WatchPage />,
       },
-      {
-        path: "demo",
-        element: (
-          <>
-            <Demo />
-            <Demo2 />
-          </>
-        ),
-      },
+      // {
+        // path: "demo",
+        // element: (
+        //   <>
+        //     <Demo />
+        //     <Demo2 />
+        //   </>
+        // ),
+      // },
     ],
   },
 ]);
