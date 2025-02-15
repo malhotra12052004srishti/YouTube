@@ -4,45 +4,45 @@
 
 const commentsData = [
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Srishti Malhotra",
+    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Srishti Malhotra",
+    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
     replies: [
       {
-        name: "Akshay Saini",
-        text: "Lorem ipsum dolor sit amet, consectetur adip",
+        name: "Srishti Malhotra",
+        text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
         replies: [],
       },
       {
-        name: "Akshay Saini",
-        text: "Lorem ipsum dolor sit amet, consectetur adip",
+        name: "Srishti Malhotra",
+        text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
         replies: [
           {
-            name: "Akshay Saini",
-            text: "Lorem ipsum dolor sit amet, consectetur adip",
+            name: "Srishti Malhotra",
+            text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
             replies: [
               {
-                name: "Akshay Saini",
-                text: "Lorem ipsum dolor sit amet, consectetur adip",
+                name: "Srishti Malhotra",
+                text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
                 replies: [
                   {
-                    name: "Akshay Saini",
-                    text: "Lorem ipsum dolor sit amet, consectetur adip",
+                    name: "Srishti Malhotra",
+                    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
                     replies: [
                       {
-                        name: "Akshay Saini",
-                        text: "Lorem ipsum dolor sit amet, consectetur adip",
+                        name: "Srishti Malhotra",
+                        text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
                         replies: [],
                       },
                     ],
                   },
                   {
-                    name: "Akshay Saini",
-                    text: "Lorem ipsum dolor sit amet, consectetur adip",
+                    name: "Srishti Malhotra",
+                    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
                     replies: [],
                   },
                 ],
@@ -54,23 +54,23 @@ const commentsData = [
     ],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Srishti Malhotra",
+    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Srishti Malhotra",
+    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Srishti Malhotra",
+    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
     replies: [],
   },
   {
-    name: "Akshay Saini",
-    text: "Lorem ipsum dolor sit amet, consectetur adip",
+    name: "Srishti Malhotra",
+    text: "Lorem ipsum dolor sit amet, consectecur adip 🚀 ",
     replies: [],
   },
 ];

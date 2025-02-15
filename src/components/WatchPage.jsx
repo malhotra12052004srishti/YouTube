@@ -1,36 +1,38 @@
-/* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useSearchParams } from "react-router-dom";
 import { closeMenu } from "../utils/appSlice";
 import CommentsContainer from "./CommentsContainer";
+import LiveChat from "./LiveChat";
 
 const WatchPage = () => {
-  const [params] = useSearchParams();
-  const dispatch = useDispatch();
+  const [searchParams] = useSearchParams();
 
+  const dispatch = useDispatch();
   useEffect(() => {
     dispatch(closeMenu());
   }, []);
-
   return (
-    <div className="flex flex-col">
-      <div className="p-5 bg-white flex w-296">
-        <iframe
-          width="100%"
-          height="450"
-          src={`https://www.youtube.com/embed/${params.get("v")}?autoplay=1`}
-          title="YouTube video player"
-          allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-          className="shrink-0 max-w-[800px] w-full"
-        />
+    <div className="flex flex-col w-full">
+      <div className="px-5 flex w-full">
+        <div className="m-2 rounded-sm border border-black">
+          <iframe
+            width="850"
+            height="500"
+            src={"https://www.youtube.com/embed/" + searchParams.get("v")}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="w-full">
+          <LiveChat />
+        </div>
       </div>
-      <div>
-        <CommentsContainer />
-      </div>
+      <CommentsContainer />
     </div>
   );
 };
