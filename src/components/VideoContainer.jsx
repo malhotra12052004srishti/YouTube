@@ -2,7 +2,7 @@
 // import React from 'react'
 
 import { useEffect, useState } from "react";
-import { YOUTUBE_VIDEOS_API } from "../utils/constants";
+import { YOUTUBE_VIDEOS_API } from "../utils/constant";
 import VideoCard, { AdVideoCard } from "./VideoCard";
 import { Link } from "react-router-dom";
 
