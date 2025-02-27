@@ -12,7 +12,7 @@ import {
   USER,
 } from "./icons";
 import { useDispatch, useSelector } from "react-redux";
-import { YOUTUBE_SEARCH_API } from "../utils/constant.js";
+// import { YOUTUBE_SEARCH_API } from "../utils/constant.js";
 import { cacheResults } from "../utils/searchSlice";
 
 const Header = () => {
